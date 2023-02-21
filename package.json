@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "cross-env NODE_ENV=testing jest --verbose --runInBand"
+    "test": "cross-env NODE_ENV=testing jest --verbose --runInBand",
+    "server": "nodemon index"
   },
   "devDependencies": {
     "@types/jest": "^27.5.0",
@@ -19,6 +20,8 @@
     "url": "git+https://github.com/Workintech/fsweb-s13g1-node-api-project-1.git"
   },
   "dependencies": {
-    "nanoid": "^3.3.4"
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.20"
   }
 }
